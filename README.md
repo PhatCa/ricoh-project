@@ -22,3 +22,20 @@ Ran a couple of code and these are the result, first was the button change from 
 ![Counter](/images/Adding%20on%20counter%20for%20button.png)
 
 I will try to work on with the ld problem from the beginning later on today and will give update about it if I figured it out.
+
+---
+
+## Update for the rest of day one
+
+I came back to problem with the library I was worked on at the beginning and ran into problem where the Kotlin Multiplatform didn't show for the generators.
+
+![Kotlin Multiplatform Error](/images/Kotlin%20Generator%20not%20found.png)
+
+I have to hard uninstall all the cache and preferece for intelligent IDEA and the problem were solved
+![Kotlin Multiplatform Error Solved](/images/Kotlin%20Generator%20found.png)
+
+Then I tried with the original docs again re created it and ran into same problem but I tweaked the setting for build.gradle.kts and it created the library. I then published it to local Marven and here was the result
+
+![Created Lib](/images/Test%20successful%20.png)
+![Published local Marven](/images/Published%20to%20local%20Marven.png)
+![File found in local marven on my mac](/images/library%20found%20in%20local%20marven.png)
